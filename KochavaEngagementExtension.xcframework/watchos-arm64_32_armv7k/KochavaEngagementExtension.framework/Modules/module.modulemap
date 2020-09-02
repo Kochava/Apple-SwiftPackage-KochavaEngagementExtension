@@ -1,0 +1,6 @@
+framework module KochavaEngagementExtension {
+  umbrella header "KochavaEngagementExtension.h"
+
+  export *
+  module * { export * }
+}
