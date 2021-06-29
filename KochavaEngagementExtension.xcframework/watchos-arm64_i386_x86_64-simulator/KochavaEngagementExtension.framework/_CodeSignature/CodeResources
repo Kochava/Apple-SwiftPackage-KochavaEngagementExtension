@@ -6,19 +6,19 @@
 	<dict>
 		<key>Headers/KVAEngagementExtensionProduct.h</key>
 		<data>
-		vaK0/1DL8xGLZUZdpbwx9HMXW18=
+		EO6t1oxk1ZCWaOiJzVeSQYeydaQ=
 		</data>
 		<key>Headers/KochavaEngagementExtension.h</key>
 		<data>
-		C5436VcL/2gY9k+/495axggTAbs=
+		5jkOCEjlF16PtFhqBbb8BE4X0rQ=
 		</data>
 		<key>Headers/UNNotificationServiceExtension+KochavaEngagementExtension.h</key>
 		<data>
-		3VLLSDAqiuGBiAVyfqSaz8CW/sw=
+		MJUYtptZs4dvvAEImnsibWKEC7Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		n/aFLX5/42NDtjfYAFsqQAAQvEw=
+		QwUoHESAiGBI5urNzxQyoi8Vx2Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,33 +31,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vaK0/1DL8xGLZUZdpbwx9HMXW18=
+			EO6t1oxk1ZCWaOiJzVeSQYeydaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UJ7a5TqA+d1HTp+cZ0GfhS1gKU+hZuf1yP6cO3BiZmQ=
+			ry80mD7Q/9dNL5jXevAl0B1ao6Zc8IRhWE8vWnXijhs=
 			</data>
 		</dict>
 		<key>Headers/KochavaEngagementExtension.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C5436VcL/2gY9k+/495axggTAbs=
+			5jkOCEjlF16PtFhqBbb8BE4X0rQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			NHWjcBDlgehVBj0G8AGMsRSHv6DlFDHQ+2c0sxepgps=
+			uG8j654AYZhGbDh2wIGOuxQx6NF3vuI60sUzKOvm3Z8=
 			</data>
 		</dict>
 		<key>Headers/UNNotificationServiceExtension+KochavaEngagementExtension.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3VLLSDAqiuGBiAVyfqSaz8CW/sw=
+			MJUYtptZs4dvvAEImnsibWKEC7Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			+UiOqm9aOldykEey81AzmBlDO9jFro3FwJIuEXpbmqc=
+			xau2tRYC1ricSenMmvy6pVpNQcehWO+XcCzqGj8iCJc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
