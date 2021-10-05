@@ -43,7 +43,13 @@
  asynchronousNotificationAttachmentArray
  An array of UNNotificationAttachment(s) which were gathered asynchronously to be appended to the notification content.
  */
-- (void)kva_didReceiveNotificationRequest:(nonnull UNNotificationRequest *)request withContent:(nonnull UNMutableNotificationContent *)content tokenReplacementDictionary:(nullable NSDictionary *)tokenReplacementDictionary completionHandler:(void (^ _Nonnull)(NSArray<UNNotificationAttachment *> * _Nullable asynchronousNotificationAttachmentArray))completionHandler NS_SWIFT_NAME(kva_didReceive(notificationRequest:withContent:tokenReplacementDictionary:completionHandler:)) API_AVAILABLE(ios(10.0));
+- (void)kva_didReceiveNotificationRequest:
+    (nonnull UNNotificationRequest *)request
+    withContent: (nonnull UNMutableNotificationContent *)content
+    tokenReplacementDictionary: (nullable NSDictionary *)tokenReplacementDictionary
+    completionHandler: (void (^ _Nonnull)(NSArray<UNNotificationAttachment *> * _Nullable asynchronousNotificationAttachmentArray))completionHandler
+    NS_SWIFT_NAME(kva_didReceive(notificationRequest:withContent:tokenReplacementDictionary:completionHandler:))
+    API_AVAILABLE(ios(10.0));
 
 
 
