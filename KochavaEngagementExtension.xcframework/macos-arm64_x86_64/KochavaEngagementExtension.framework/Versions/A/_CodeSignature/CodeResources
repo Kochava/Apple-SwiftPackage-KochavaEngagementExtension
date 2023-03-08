@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		AqqHBqFIJoHeoj9IdBrmzMffVww=
+		XKWbTYdITXjrCtNXlZWbXAfnqGo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,21 +15,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ry80mD7Q/9dNL5jXevAl0B1ao6Zc8IRhWE8vWnXijhs=
+			Zve6M0SbTluet23hTXH8G/R9xFTySukz5LcCIAdVXOM=
 			</data>
 		</dict>
 		<key>Headers/KochavaEngagementExtension.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uG8j654AYZhGbDh2wIGOuxQx6NF3vuI60sUzKOvm3Z8=
+			ZJHhfVoDzSDPW27O8AsyFiE84kMLe6paCEFM4T0onC4=
 			</data>
 		</dict>
 		<key>Headers/UNNotificationServiceExtension+KochavaEngagementExtension.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VD5FGZlz3Sj4Ko3+EgDvNLXlPvpwuS19w+e5YJOgOeg=
+			CXVjyUcF3esGb0pda4TA/hO7kX7pos04IJStmYoVEnU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ziXQ/rYgMtrCSFKksGy6BFx5ItRdPniGcSlTtA4JX00=
+			+wxVjDYgGUeLYSVJfxnFmjjOoWvQOGhldq71yeqaPjg=
 			</data>
 		</dict>
 	</dict>

@@ -3,7 +3,7 @@
 //  KochavaEngagementExtension
 //
 //  Created by John Bushnell on 11/9/17.
-//  Copyright © 2017 - 2021 Kochava, Inc.  All rights reserved.
+//  Copyright © 2017 - 2022 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -18,12 +18,7 @@
 
 
 #pragma mark KochavaCore
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaCore/KochavaCore.h>
-#else
-#import "KVAProduct.h"
-#import "KVASharedPropertyProvider.h"
-#endif
+@import KochavaCore;
 
 
 
@@ -37,18 +32,12 @@
  @brief A class which defines an engagement product.
  
  @discussion A product in this context generally refers to the result of a build.
- 
- Inherits from: KVAProduct
- 
- @author John Bushnell
- 
- @copyright 2017 - 2021 Kochava, Inc.
  */
-@interface KVAEngagementExtensionProduct : KVAProduct <KVASharedPropertyProvider>
+@interface KVAEngagementExtensionProduct : NSObject
 
 
 
-#pragma mark - SHARED INSTANCE (SINGLETON)
+#pragma mark - 1️⃣ Getting the Shared Engagement Extension Product
 
 
 
@@ -57,9 +46,19 @@
  
  @brief The singleton shared instance.
  */
-@property (class, readonly, strong, nonnull) KVAEngagementExtensionProduct *shared;
+@property (class, readonly, strong, nonnull) KVAProduct *shared;
 
 
+
+@end
+
+
+
+#pragma mark - INTERFACE EXTENSION (KVASharedPropertyProtocol)
+
+
+
+@interface KVAEngagementExtensionProduct (KVASharedPropertyProtocol) <KVASharedPropertyProvider>
 
 @end
 

@@ -3,7 +3,7 @@
 //  KochavaEngagementExtension
 //
 //  Created by John Bushnell on 6/12/20.
-//  Copyright © 2018 - 2021 Kochava, Inc.  All rights reserved.
+//  Copyright © 2020 - 2022 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -29,7 +29,7 @@
 #import <Foundation/Foundation.h>
 
 #pragma mark KochavaCore
-#import <KochavaCore/KochavaCore.h>
+@import KochavaCore;
 
 #pragma mark KochavaEngagementExtension
 #import <KochavaEngagementExtension/UNNotificationServiceExtension+KochavaEngagementExtension.h>
