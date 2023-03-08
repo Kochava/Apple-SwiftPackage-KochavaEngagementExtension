@@ -31,11 +31,6 @@
 #pragma mark KochavaCore
 @import KochavaCore;
 
-#pragma mark KochavaEngagementExtension
-#import <KochavaEngagementExtension/UNNotificationServiceExtension+KochavaEngagementExtension.h>
-
-#import <KochavaEngagementExtension/KVAEngagementExtensionProduct.h>
-
 
 
 #pragma mark - EXPORT

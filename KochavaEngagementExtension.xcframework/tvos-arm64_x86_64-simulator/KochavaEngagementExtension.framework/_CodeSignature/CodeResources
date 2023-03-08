@@ -4,71 +4,146 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/KVAEngagementExtensionProduct.h</key>
+		<key>Headers/KochavaEngagementExtension-Swift.h</key>
 		<data>
-		hiI0ulZWIYnIePZl1x+O+hF7EXo=
+		o0GAZK9G8P98Bz8gEodL3+DoUJE=
 		</data>
 		<key>Headers/KochavaEngagementExtension.h</key>
 		<data>
-		XZDPKfJHbmptpZbmdBeDyJuwuIk=
-		</data>
-		<key>Headers/UNNotificationServiceExtension+KochavaEngagementExtension.h</key>
-		<data>
-		eHOX6Q718LCIyUwpfMB9jz1ez28=
+		4VFE4Mc+zEGwdGdeOv63c5uCeWA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KIB42PBx1TNrurn3KKf6tnehHxw=
+		maRI/XGDnLlZkAfF1KYsKiH3pfY=
+		</data>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
+		<data>
+		WXxeVdTcZfYe4ScafVbp7HhZTsM=
+		</data>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
+		<data>
+		IbgGr2C0wP0Vx+Eb3g0T4sdCI6s=
+		</data>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
+		<data>
+		I9qm2B/RXkei5/ITwaV8FHhbrz4=
+		</data>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
+		<data>
+		brvn7jrFnDP5mA06oASbpF7DyLI=
+		</data>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<data>
+		9s4zsNI2A0ZJpAEIn7bOTWC1TFw=
+		</data>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
+		<data>
+		gTaybErPmbEkb0Sn3F3HVbUCCA8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		eFdoa6G7m0vYZmhQlvWVSlJRT5M=
+		iWsDABjBsIJ0O8pyUXGWf9EPhag=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/KVAEngagementExtensionProduct.h</key>
+		<key>Headers/KochavaEngagementExtension-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hiI0ulZWIYnIePZl1x+O+hF7EXo=
+			o0GAZK9G8P98Bz8gEodL3+DoUJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zve6M0SbTluet23hTXH8G/R9xFTySukz5LcCIAdVXOM=
+			WnLREbJnRSbwd8SAAHo8DsTr0aKuMP/BoQwmfR2PA5g=
 			</data>
 		</dict>
 		<key>Headers/KochavaEngagementExtension.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XZDPKfJHbmptpZbmdBeDyJuwuIk=
+			4VFE4Mc+zEGwdGdeOv63c5uCeWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZJHhfVoDzSDPW27O8AsyFiE84kMLe6paCEFM4T0onC4=
+			3tJwkgMcBetN6LepRMCJnmzbfYYODctDiZFohfrHDro=
 			</data>
 		</dict>
-		<key>Headers/UNNotificationServiceExtension+KochavaEngagementExtension.h</key>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eHOX6Q718LCIyUwpfMB9jz1ez28=
+			WXxeVdTcZfYe4ScafVbp7HhZTsM=
 			</data>
 			<key>hash2</key>
 			<data>
-			CXVjyUcF3esGb0pda4TA/hO7kX7pos04IJStmYoVEnU=
+			5H79mVziqvZ21ibrJPxw6+jAEX5WGUrhZU2Ae0+giuM=
+			</data>
+		</dict>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IbgGr2C0wP0Vx+Eb3g0T4sdCI6s=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZG0jKcgJiWHj6JjkY5Xslkn/5zHpQGXNJe9znv4oE9U=
+			</data>
+		</dict>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I9qm2B/RXkei5/ITwaV8FHhbrz4=
+			</data>
+			<key>hash2</key>
+			<data>
+			SVk7yg6zcqX3oQVskD70EmbE1T53MwPLD5Qjpzd3Ims=
+			</data>
+		</dict>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			brvn7jrFnDP5mA06oASbpF7DyLI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Wpt3L9/DBmnlUDT2ezc+uGYmSZ/91tNIwkyFCsCMEsY=
+			</data>
+		</dict>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9s4zsNI2A0ZJpAEIn7bOTWC1TFw=
+			</data>
+			<key>hash2</key>
+			<data>
+			KFGyLJD0DqUgIcH/FUxTPRPPvQqoOt0dooc5Y1sJMj0=
+			</data>
+		</dict>
+		<key>Modules/KochavaEngagementExtension.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gTaybErPmbEkb0Sn3F3HVbUCCA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			gHgK4Gybb1g4nNmtYnnXG0vQ977GRfpqfpwus19MD+c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eFdoa6G7m0vYZmhQlvWVSlJRT5M=
+			iWsDABjBsIJ0O8pyUXGWf9EPhag=
 			</data>
 			<key>hash2</key>
 			<data>
-			P0hiQhwXkfjQkzNfE1rnezz95VXP2H+/EbbeZV2tP7M=
+			gBYSCkSzxw0zdBWkEfF5+CyfsS06qUmFd1wiFzfnp18=
 			</data>
 		</dict>
 	</dict>

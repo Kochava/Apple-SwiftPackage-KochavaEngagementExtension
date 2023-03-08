@@ -4,3 +4,8 @@ framework module KochavaEngagementExtension {
   export *
   module * { export * }
 }
+
+module KochavaEngagementExtension.Swift {
+    header "KochavaEngagementExtension-Swift.h"
+    requires objc
+}
