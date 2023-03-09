@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KochavaEngagementExtension
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import KochavaCore
+@_exported import KochavaEngagementExtension
+import Swift
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc(KVAEngagementExtensionProduct) final public class KVAEngagementExtensionProduct : ObjectiveC.NSObject, KochavaCore.KVASharedPropertyProvider {
+  @objc public static let shared: KochavaCore.KVAProduct
+  public static var sharedInstance: Swift.AnyObject {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(watchOS 6.0, *)
+extension UserNotifications.UNNotificationServiceExtension {
+  @objc(kva_didReceiveNotificationRequest:content:tokenReplacementDictionary:closure_didComplete:) dynamic public func kva_didReceive(notificationRequest request: UserNotifications.UNNotificationRequest, content: UserNotifications.UNMutableNotificationContent, tokenReplacementDictionary: [Swift.AnyHashable : Any]?, closure_didComplete: @escaping ((_ asynchronousNotificationAttachmentArray: [UserNotifications.UNNotificationAttachment]?) -> Swift.Void))
+  @available(*, deprecated, renamed: "kva_didReceive(notificationRequest:content:tokenReplacementDictionary:closure_didComplete:)", message: "Modern Objective-C-termed initializer deprecated.  Use Swift func kva_didReceive(notificationRequest:content:tokenReplacementDictionary:closure_didComplete:) instead.  If in Objective-C then use -kva_didReceiveNotificationRequest:content:tokenReplacementDictionary:closure_didComplete:")
+  @objc(kva_didReceiveNotificationRequest:withContent:tokenReplacementDictionary:completionHandler:) dynamic public func kva_didReceive(notificationRequest request: UserNotifications.UNNotificationRequest, withContent content: UserNotifications.UNMutableNotificationContent, tokenReplacementDictionary: [Swift.AnyHashable : Any]?, completionHandler: @escaping ((_ asynchronousNotificationAttachmentArray: [UserNotifications.UNNotificationAttachment]?) -> Swift.Void))
+}

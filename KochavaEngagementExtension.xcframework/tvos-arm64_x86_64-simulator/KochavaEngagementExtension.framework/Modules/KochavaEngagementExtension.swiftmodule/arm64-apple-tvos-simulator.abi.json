@@ -1,0 +1,302 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "KochavaCore",
+        "printedName": "KochavaCore",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KVAEngagementExtensionProduct",
+        "printedName": "KVAEngagementExtensionProduct",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KVAProduct",
+                "printedName": "KochavaCore.KVAProduct",
+                "usr": "c:@M@KochavaCore@objc(cs)KVAProduct"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEngagementExtension@objc(cs)KVAEngagementExtensionProduct(cpy)shared",
+            "mangledName": "$s26KochavaEngagementExtension013KVAEngagementC7ProductC6shared0A4Core10KVAProductCvpZ",
+            "moduleName": "KochavaEngagementExtension",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KVAProduct",
+                    "printedName": "KochavaCore.KVAProduct",
+                    "usr": "c:@M@KochavaCore@objc(cs)KVAProduct"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEngagementExtension@objc(cs)KVAEngagementExtensionProduct(cm)shared",
+                "mangledName": "$s26KochavaEngagementExtension013KVAEngagementC7ProductC6shared0A4Core10KVAProductCvgZ",
+                "moduleName": "KochavaEngagementExtension",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26KochavaEngagementExtension013KVAEngagementC7ProductC14sharedInstanceyXlvpZ",
+            "mangledName": "$s26KochavaEngagementExtension013KVAEngagementC7ProductC14sharedInstanceyXlvpZ",
+            "moduleName": "KochavaEngagementExtension",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26KochavaEngagementExtension013KVAEngagementC7ProductC14sharedInstanceyXlvgZ",
+                "mangledName": "$s26KochavaEngagementExtension013KVAEngagementC7ProductC14sharedInstanceyXlvgZ",
+                "moduleName": "KochavaEngagementExtension",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KVAEngagementExtensionProduct",
+                "printedName": "KochavaEngagementExtension.KVAEngagementExtensionProduct",
+                "usr": "c:@M@KochavaEngagementExtension@objc(cs)KVAEngagementExtensionProduct"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KochavaEngagementExtension@objc(cs)KVAEngagementExtensionProduct(im)init",
+            "mangledName": "$s26KochavaEngagementExtension013KVAEngagementC7ProductCACycfc",
+            "moduleName": "KochavaEngagementExtension",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KochavaEngagementExtension@objc(cs)KVAEngagementExtensionProduct",
+        "mangledName": "$s26KochavaEngagementExtension013KVAEngagementC7ProductC",
+        "moduleName": "KochavaEngagementExtension",
+        "objc_name": "KVAEngagementExtensionProduct",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "KVASharedPropertyProvider",
+            "printedName": "KVASharedPropertyProvider",
+            "usr": "s:11KochavaCore25KVASharedPropertyProviderP",
+            "mangledName": "$s11KochavaCore25KVASharedPropertyProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "KochavaCore",
+        "printedName": "KochavaCore",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KochavaCore",
+        "printedName": "KochavaCore",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KochavaCore",
+        "printedName": "KochavaCore",
+        "declKind": "Import",
+        "moduleName": "KochavaEngagementExtension"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-KochavaSDK-Source\/KochavaEngagementExtension\/KochavaEngagementExtension\/ClassFiles\/KVAEngagementExtensionProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 2256,
+      "length": 21,
+      "value": "\"EngagementExtension\""
+    }
+  ]
+}

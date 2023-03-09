@@ -6,6 +6,6 @@ framework module KochavaEngagementExtension {
 }
 
 module KochavaEngagementExtension.Swift {
-    header "KochavaEngagementExtension-Swift.h"
-    requires objc
+  header "KochavaEngagementExtension-Swift.h"
+  requires objc
 }
