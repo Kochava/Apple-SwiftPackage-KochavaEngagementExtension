@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/KochavaEngagementExtension.h</key>
 		<data>
-		R4J/9XHnqaAHMIUZGMDJZoszK3g=
+		mtTtu0or7dxMoFdJeMyEqWNHxRM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mWT22rZqapp0g43l6Ha7+H9ESDw=
+		vYNQiRgaBQ+MTuHpy/iwqzE9/Fw=
 		</data>
 		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0amgQ1K7f3ss/GVTsTSe3bYN3rM=
+		MuNo3ultFpFlcu7MxrV+2pY8cow=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			afCBADNwDES0rEYcuXQIhOfpIVt/UTa2gumnL7xVECc=
+			GfMPsCHgCAclwxXQx/TTncfxZWx5OvgGbTokroN/zUs=
 			</data>
 		</dict>
 		<key>Modules/KochavaEngagementExtension.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XMBWhL7tr95VA9YmdqXEMy6tfMpbUcp4Hps5QtO7Sq8=
+			EUY9wxR1aXwvX7l7MiH3ATAGr3RqUcUI9yQk1fxBqhE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
